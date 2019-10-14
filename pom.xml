@@ -227,6 +227,7 @@
                             <manifest>
                                 <addClasspath>true</addClasspath>
                                 <classpathPrefix>lib/</classpathPrefix>
+                                <!--suppress UnresolvedMavenProperty -->
                                 <mainClass>${main.class}</mainClass>
                             </manifest>
                         </archive>
